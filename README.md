@@ -2,7 +2,7 @@
 
 Aplicação PWA desenvolvida com Vue, Ionic e Vite. Capacitor para gerar o apk nativo para Android. Firebase Auth e Database para autenticação e armazenamento/leitura de dados em tempo real.
 
-<a href="https://ionic-project-bd4a7.web.app">Veja o PWA</a>
+<a href="https://ionic-project-bd4a7.web.app">Veja o PWA ou Baixe o APK</a>
 
 <h3>Breve resumo</h3>
 <p>Integrei o Vue para aproveitar todo o potencial da reatividade e reaproveitamento de componentes</p>
