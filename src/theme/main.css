@@ -1,0 +1,100 @@
+@import url('./base.css');
+
+html.md, html.ios {
+    --ion-default-font: 'Montserrat', sans-serif !important;
+}
+
+.divider {
+    background-color: #b1bbc0;
+    width: 100%;
+    height: 1px;
+    margin: 1rem 0px
+}
+
+ion-header.md {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.sm\:block {
+    margin: 3rem 1rem 0px 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+ion-thumbnail {
+    margin-inline-end: 5px
+}
+
+.ion-custom-alert .alert-wrapper{
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.ion-alert-custom-button{
+    text-transform: capitalize !important;
+}
+
+.no-shadow {
+    box-shadow: none !important;
+}
+
+.p-auto-1 {
+    padding: auto 1rem;
+}
+
+.p-auto-2 {
+    padding: auto 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .md\:centered {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        position: var(--centered-position);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .xl\:centered {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        position: var(--centered-position);
+    }
+}
+
+
+@media screen and (min-width: 650px) {
+    .md-sm\:centered {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        position: var(--centered-position);
+    }
+
+    .md-sm\:width-20rem {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .x-sm\:width {
+        width: 100%;
+    }
+
+    .x-sm\:transform-y-50 {
+        transform: translateY(-50%);
+    }
+
+    .x-sm\:top-50 {
+        top: 50%;
+    }
+
+    .x-sm\:absolute {
+        position: absolute;
+    }
+
+    .x-sm\:p-lr-3 {
+        padding: 0px 3rem;
+    }
+}

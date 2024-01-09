@@ -1,0 +1,26 @@
+
+{
+  "appId": "io.ionic.starter",
+  "appName": "ionic-app",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_launcher_background",
+      "iconColor": "#488AFF",
+      "sound": "beep.wav"
+    },
+    "SplashScreen": {
+      "launchShowDuration": 3700,
+      "launchAutoHide": true,
+      "launchFadeOutDuration": 3700,
+      "backgroundColor": "#ffffffff",
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "layoutName": "launch_screen"
+    }
+  }
+}
