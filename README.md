@@ -7,6 +7,6 @@ Aplicação PWA desenvolvida com Vue, Ionic e Vite. Capacitor para gerar o apk n
 <h3>Breve resumo</h3>
 <p>Integrei o Vue para aproveitar todo o potencial da reatividade e reaproveitamento de componentes</p>
 <p>Integrei o Ionic por conta do KIT de UI já pronto, que agiliza no desenvolvimento.</p>
-<p>Ao integrar o Vite ao projeto, consigo usar todo o potencial do Javascript moderno.</p>
+<p>Ao integrar o Vite ao projeto, consigo usar todo o potencial do Javascript moderno além de reduzir significativamente o tamanho do projeto para produção.</p>
 <p>O Capacitor gera o APK para Android/IOs. Adicionei algumas funcionalidades nativas como DateTimePicker e Push Notifications.</p>
 <p>Firebase Auth, facilita a criação de um serviço de autenticação seguro e integrado ao banco de dados Firebase Database</p>
