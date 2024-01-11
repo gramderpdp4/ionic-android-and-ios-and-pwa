@@ -12,6 +12,7 @@
 <script setup>
     import { IonToolbar, IonFooter, IonTitle, alertController, IonButton } from '@ionic/vue'
     import play_store from '@/files/play-store.svg';
+    import { downloadApk } from '@/scripts/download-apk.js'
 
     const downloadApp = async () => {
         const download = await alertController.create({
@@ -27,7 +28,7 @@
                 {
                     text: 'Baixar',
                     handler: () => {
-                        alert('Baixando')
+                        downloadApk()
                     }
                 }
             ]

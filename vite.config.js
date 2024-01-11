@@ -10,6 +10,12 @@ export default defineConfig({
     vue(),
     legacy(),
     VitePWA({
+      workbox: {
+        sourcemap: true,
+        cleanupOutdatedCaches: true,
+        skipWaiting: true,
+        clientsClaim: true
+      },
       registerType: 'autoUpdate',
       devOptions: {
         enabled: true
